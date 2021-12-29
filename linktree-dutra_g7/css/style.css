@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%; 
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background: rgb(132,194,130);
+    background: linear-gradient(180deg, rgba(132,194,130,0.700717787114846) 0%, rgba(11,55,22,1) 59%);
+}
+
+.avatar {
+    width: 180px;
+    border-radius: 50px;
+    border: 3px solid rgb(219, 196, 146);
+    box-shadow: 0px 0px 20px rgb(247, 245, 241);
+    
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 28px;
+    margin-bottom: 2px;
+    margin-top: 5px;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-size: 15px;
+    margin-top: 2px;
+    letter-spacing: 6px;
+    
+}
+
+.profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social img {
+    width: 33px;
+}
+
+.social {
+    display: flex; /* faz com que todas as dentro da class SOCIAL fique alinhados */
+    justify-content: space-around; /* justifique esse conteudo no centro "so funfa no FLEX"*/
+    list-style: none; /* Retira as bolinhas na frente do foto ou ícone */
+    margin: 20px 0;
+}
+
+.titulo {
+    background: rgba(240, 229, 182, 0.774);
+    padding: 10px 10px;
+    display: block;
+    border-radius: 10px;
+    margin: 10px 20px;
+    text-align: center;
+    list-style: none;
+    color: rgb(3, 8, 4); 
+    font-weight: bold;
+    box-shadow: 0px 0px 20px white;
+    font-size: large;
+    letter-spacing: 10px;
+}
+
+.Links-list {
+    list-style: none;
+}
+
+.Links-list li {
+    margin: 10px 20px;
+}
+
+.Links-list li a {
+    background: rgba(197, 161, 108, 0.767);
+    padding: 15px 50px;
+    display: block; 
+    border-radius: 10px;
+    text-decoration: none;/*Remove  linha abaixo da linh link*/
+    color:rgb(21, 53, 22); 
+    font-weight: bold;
+    box-shadow: 0 0 6px 2px rgb(192, 182, 170);
+    letter-spacing: 4px;
+    color: rgb(0, 0, 0);
+    
+}
+
+.Links-list li a:hover {
+    background-color: rgb(238, 225, 210);
+}
+
+.Links-list li a span {
+    color: rgba(103, 145, 110, 0.986);
+    display: block; /*foça com que a cau«xa vire um bloco*/
+    margin-top: 5px;
+    font-weight: 300;
+}
+
+footer {
+    
+    background-color: rgba(11,55,22,1);
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+
